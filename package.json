@@ -1,0 +1,35 @@
+{
+  "name": "kurzer-url",
+  "displayName": "kurzer-url",
+  "version": "1.0.0",
+  "description": "kurzer-url is a node package to shorten url",
+  "author": "Giovani de Oliveira <giovanioliveira@outlook.com.br>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxgicoxx/kurzer-url.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xxgicoxx/kurzer-url/issues"
+  },
+  "homepage": "https://github.com/xxgicoxx/kurzer-url#readme",
+  "keywords": [
+    "shorten-urls",
+    "shorten",
+    "shortner",
+    "url",
+    "node",
+    "urlshortner",
+    "shorturl",
+    "url-shortner",
+    "node-shorturl"
+  ],
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
