@@ -1,14 +1,13 @@
 # kurzer-url
-
 kurzer-url is a node package to shorten url.
 
-# Installation
+### Installation
 ````
-npm install kurzer-url --save
+npm install kurzer-url
 ````
 
-# Example
-````
+### Example
+```javascript
 var kurzer = require('kurzer-url');
 
 kurzer.short('https://google.com.br/').then((response) => {
@@ -16,4 +15,10 @@ kurzer.short('https://google.com.br/').then((response) => {
 }).catch((error) => {
     //Error
 });
-````
+```
+
+### Built With
+* [Node.js](https://nodejs.org/en/)
+
+### Authors
+* **Giovani de Oliveira** - [xxgicoxx](https://github.com/xxgicoxx)
