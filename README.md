@@ -1,5 +1,5 @@
 # kurzer-url
-kurzer-url is a node package to shorten url.
+Node package to shorten url.
 
 ### Installation
 ````
