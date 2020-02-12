@@ -1,7 +1,7 @@
 {
   "name": "kurzer-url",
   "displayName": "kurzer-url",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "Node package to shorten url",
   "author": "Giovani de Oliveira <giovanioliveira@outlook.com.br>",
   "license": "MIT",
@@ -18,18 +18,18 @@
   },
   "homepage": "https://github.com/xxgicoxx/kurzer-url#readme",
   "keywords": [
-    "shorten-urls",
+    "kurzer-url",
     "shorten",
     "shortner",
-    "url",
-    "node",
-    "urlshortner",
-    "shorturl",
-    "url-shortner",
-    "node-shorturl"
+    "url"
   ],
   "dependencies": {
     "request": "^2.88.0",
-    "request-promise": "^4.2.5"
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
   }
 }
