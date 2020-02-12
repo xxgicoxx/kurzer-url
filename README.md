@@ -11,9 +11,9 @@ npm install kurzer-url
 var kurzer = require('kurzer-url');
 
 kurzer.short('https://google.com.br/').then((response) => {
-    //Short URL
+  console.log(response);
 }).catch((error) => {
-    //Error
+  console.log(error);
 });
 ```
 
