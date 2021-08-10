@@ -17,11 +17,10 @@ npm install kurzer-url
 ```javascript
 var kurzer = require('kurzer-url');
 
-kurzer('https://google.com.br/').then((response) => {
-  console.log(response);
-}).catch((error) => {
-  console.error(error);
-});
+(async () => {
+    const short = await kurzer('https://google.com.br/');
+    console.log(short);
+})();
 ```
 
 # Built With
