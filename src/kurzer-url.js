@@ -1,4 +1,4 @@
-const request = require('request-promise-native');
+const fetch = require('node-fetch');
 
 /**
  * Short url
@@ -8,8 +8,8 @@ const request = require('request-promise-native');
  */
 async function short(url = '') {
   try {
-    const shortUrl = await request({ url: `https://is.gd/create.php?format=simple&url=${url}`, json: true });
-    return shortUrl;
+    const shortUrl = await fetch(`https://is.gd/create.php?format=simple&url=${url}`);
+    return shortUrl.text();
   } catch (ex) {
     throw new Error(ex);
   }
