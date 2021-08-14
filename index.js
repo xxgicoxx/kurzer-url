@@ -1,1 +1,3 @@
-module.exports = require('./src/kurzer-url');
+const { KurzerUrlController } = require('./src/controllers');
+
+module.exports = KurzerUrlController;

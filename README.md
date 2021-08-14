@@ -1,9 +1,12 @@
 # kurzer-url
-Node.js package for shorten url.
+is.gd API wrapper for Node.js.
 
 <p align="center">
   <img src="https://i.imgur.com/QjtB6lU.png">
 </p>
+
+# Docs
+[Documentation](https://is.gd/apishorteningreference.php)
 
 # Prerequisites
 * [Node.js](https://nodejs.org/en/)
@@ -15,11 +18,20 @@ npm install kurzer-url
 
 # Example
 ```javascript
-var kurzer = require('kurzer-url');
+const Kurzer = require('kurzer-url');
+
+const kurzer = new Kurzer();
 
 (async () => {
-    const short = await kurzer('https://google.com.br/');
-    console.log(short);
+  try {
+    const shortUrl = await kurzer.short('https://google.com.br/');
+    console.log(shortUrl);
+
+    const statsUrl = await kurzer.stats('https://is.gd/YS736B');
+    console.log(statsUrl);
+  } catch (error) {
+    console.error(error);
+  }
 })();
 ```
 
