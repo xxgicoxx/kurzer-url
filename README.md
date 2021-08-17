@@ -2,7 +2,7 @@
 is.gd API wrapper for Node.js.
 
 <p align="center">
-  <img src="https://i.imgur.com/QjtB6lU.png">
+  <img src="assets/imgs/kurzer-url.png">
 </p>
 
 # Docs
