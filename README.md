@@ -6,7 +6,7 @@ is.gd API wrapper for Node.js.
 </p>
 
 # Docs
-[Documentation](https://is.gd/apishorteningreference.php)
+* [Documentation](https://is.gd/apishorteningreference.php)
 
 # Prerequisites
 * [Node.js](https://nodejs.org/en/)
