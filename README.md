@@ -5,6 +5,10 @@ is.gd API wrapper for Node.js.
   <img src="assets/imgs/kurzer-url.png">
 </p>
 
+# Features
+* Short URL
+* URL stats
+
 # Docs
 * [Documentation](https://is.gd/apishorteningreference.php)
 

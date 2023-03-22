@@ -1,7 +1,7 @@
 {
   "name": "kurzer-url",
   "displayName": "kurzer-url",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "is.gd API wrapper for Node.js",
   "author": "Giovani de Oliveira <giovanioliveira@outlook.com.br>",
   "license": "MIT",
