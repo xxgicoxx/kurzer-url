@@ -5,7 +5,7 @@ const { apiConfig } = require('../configs');
 class KurzerUrlService {
   async short(url, options = {}) {
     if (!url) {
-      throw new Error(constants.ERROR_URL);
+      throw new Error(constants.MESSAGE_URL_CANNOT_EMPTY);
     }
 
     const qs = { url, ...options, ...{ format: constants.FORMAT_JSON } };
@@ -19,7 +19,7 @@ class KurzerUrlService {
 
   async stats(url) {
     if (!url) {
-      throw new Error(constants.ERROR_URL);
+      throw new Error(constants.MESSAGE_URL_CANNOT_EMPTY);
     }
 
     return {
